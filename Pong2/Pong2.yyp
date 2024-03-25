@@ -35,6 +35,7 @@
   "name":"Pong2",
   "resources":[
     {"id":{"name":"oBall","path":"objects/oBall/oBall.yy",},},
+    {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"oDeath","path":"objects/oDeath/oDeath.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oGameOver","path":"objects/oGameOver/oGameOver.yy",},},
