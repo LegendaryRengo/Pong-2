@@ -1,3 +1,5 @@
+if instance_exists(oBall)
+{
 // Get the y-coordinate of the ball
 var ball_y = oBall.y;
 var threshold = 5;
@@ -12,4 +14,5 @@ if (abs(ball_y - y) > threshold) {
     if (!place_meeting(x, y + (movement_sign * step_size), oWall)) {
         y += movement_sign * step_size;
     }
+}
 }
